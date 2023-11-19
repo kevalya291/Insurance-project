@@ -23,7 +23,7 @@ public class TestNGStar {
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
 		
-		driver.get("http://localhost:8081/contact.html");	       
+		driver.get("http://18.209.160.227:8081/contact.html");	       
         WebElement inputName = driver.findElement(By.id("inputName"));
         WebElement inputNumber = driver.findElement(By.id("inputNumber"));
         WebElement inputMail = driver.findElement(By.id("inputMail"));
